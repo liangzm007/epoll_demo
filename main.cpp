@@ -5,7 +5,7 @@ int main()
     g_localSock.Initialize(NULL);
     g_localSock.Start();
 
-    int count = 2;
+    int count = 60;
     while(count-- > 0)
     {
         sleep(1);
